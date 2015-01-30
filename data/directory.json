@@ -1,0 +1,13 @@
+[
+	{
+		"name": "sublime-text",
+		"displayName": "Sublime Text",
+		"systems": {
+			"mac": {
+				"versions": {
+					"3": "data/apps/sublime_text_3_mac.json"
+				}
+			}
+		}
+	}
+]
