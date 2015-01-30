@@ -1,0 +1,1 @@
+# Simple Single Page Application To List Application Shortcuts
