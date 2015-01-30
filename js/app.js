@@ -11,7 +11,7 @@ Array.prototype.append = function () {
 
 (function () {
 
-	m.request({method: "GET", url: "/data/directory.json"}).then(function (directory) {
+	m.request({method: "GET", url: "data/directory.json"}).then(function (directory) {
 
 		var app = {};
 
