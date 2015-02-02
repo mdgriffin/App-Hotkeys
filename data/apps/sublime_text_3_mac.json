@@ -1,27 +1,94 @@
 {
-	"global": {
-		"New Window": ["super+shift+n"],
-		"Close Window": ["super+shift+w"],
-		"Prompt Open": ["super+shift+w"],
-		"Reopen Last File": ["super+shift+t"],
-		"Switch FIle": ["super+alt+up"],
-		"New File": ["super+n"],
-		"Save": ["super+s"],
-		"Prompt Save As": ["super+shift+s"],
-		"Save All": ["super+alt+s"],
-		"Close": ["super+w"],
-		"Toggle Side Bar": ["super+k", "super+b"],
-		"Toggle Full Screen": ["super+ctrl+f"],
-		"Toggle Distraction Free": ["super+ctrl+shift+f"],
-		"Undo": ["super+z"],
-		"Redo": ["super+shift+z"],
-		"Redo Or Repeat": ["super+y"],
-		"Soft Undo": ["super+u"],
-		"Soft Redo": ["super+shift+u"],
-		"Cut": ["super+x"],
-		"Copy": ["super+c"],
-		"paste": ["super+v"],
-		"Paste and Indent": ["super+shift+v"],
-		"Paste From History": ["super+k", "super+v"]
+
+	"Editing": {
+		"Cut line": ["⌘+X"],
+		"Insert line after": ["⌘+RETURN"],
+		"Insert line before": ["⌘+SHIFT+RETURN"],
+		"Move line/selection up": ["⌘+CTRL+UP"],
+		"Move line/selection down": ["⌘+CTRL+DOWN"],
+		"Select line - Repeat to select next lines": ["⌘+L"],
+		"Select word - Repeat to select next occurrence": ["⌘+D"],
+		"Select all occurrences of current selection": ["CTRL+⌘+G"],
+		"Extra cursor on the line above": ["CTRL+SHIFT+UP"],
+		"Extra cursor on the line below": ["CTRL+SHIFT+DOWN"],
+		"Jump to closing parentheses Repeat to jump to opening parentheses": ["CTRL+M"],
+		"Select all contents of the current parentheses": ["CTRL+SHIFT+M"],
+		"Move to beginning of line": ["CTRL+A"],
+		"Move to end of line": ["CTRL+e"],
+		"Delete from cursor to end of line": ["⌘+K"],
+		"Delete from cursor to start of line": ["⌘+K+DELETE"],
+		"Indent current line(s)": ["⌘+]"],
+		"Un-indent current line(s)": ["⌘+["],
+		"Duplicate line(s)": ["⌘+SHIFT+D"],
+		"Join line below to the end of the current line": ["⌘+J"],
+		"Comment/un-comment current line": ["⌘+/"],
+		"Block comment current selection": ["⌘+ALT+/"],
+		"Redo, or repeat last keyboard shortcut command": ["⌘+Y"],
+		"Paste and indent correctly": ["⌘+SHIFT+V"],
+		"Select next auto-complete suggestion": ["CTRL+SPACE"],
+		"Soft undo; jumps to your last change before undoing change when repeated": ["CTRL+U"],
+		"Column selection up": ["CTRL+SHIFT+UP"],
+		"Column selection down": ["CTRL+SHIFT+DOWN"],
+		"Wrap Selection in html tag": ["CTRL+SHIFT+W"]	
+	},
+
+	"Navigation/Goto Anywhere": {
+		"Quick-open files by name":["⌘+P","⌘+T"],
+		"Goto symbol": ["⌘+R"],
+		"Goto line in current file": ["SHIFT+G"]
+	},
+
+	"General": {
+		"Command Palette": ["⌘+SHIFT+P"],
+		"Python Console": ["CTRL+⌘+F"],
+		"Toggle fullscreen mode": ["CTRL+SHIFT+⌘+F"],
+		"Toggle distraction-free mode": ["CTRL+`"],
+		"Toggle side bar": ["⌘+K", "⌘+B"],
+		"Show scope in status bar": ["CTRL+SHIFT+P"]
+	},
+
+	"Find/Replace": {
+		"Find": ["⌘+F"],
+		"Replace": ["⌘+ALT+F"],
+		"Find in files": ["⌘+SHIFT+F"]
+	},
+
+	"Scrolling": {
+		"Scroll down one page": ["CTRL+V"],
+		"Center current line vertically in page": ["CTRL+L"],
+		"Scroll to end of file": ["⌘+Down"],
+		"Scroll to start of file": ["⌘+Up"]
+	},
+
+	"Tabs": {
+		"Open last closed tab": ["⌘+SHIFT+t"],
+		"Jump to tab in current group where num is 1-9": ["⌘+$NUM"],
+		"Jump to 10th tab in current group": ["⌘+0"],
+		"Cycle left through tabs": ["⌘+SHIFT+["],
+		"Cycle right through tabs": ["⌘+SHIFT+]"],
+		"Cycle up through recent tabs": ["^+Tab"],
+		"Cycle down through recent tabs": ["SHIFT+^+Tab"]
+	},
+
+	"Split window": {
+		"Split view into two columns": ["⌘+ALT+2"],
+		"Revert view to single column": ["⌘+ALT+1"],
+		"Set view to grid (4 groups)": ["⌘+ALT+5"],
+		"Jump to group where $NUM is 1-4": ["CTRL+$NUM"],
+		"Move file to specified group where $NUM is 1-4": ["CTRL+SHIFT+$NUM"]
+	},
+
+	"Bookmarks": {
+		"Toggle bookmark": ["⌘+F2"],
+		"Next bookmark": ["F2"],
+		"Previous bookmark": ["SHIFT+F2"],
+		"Clear bookmarks": ["SHIFT+⌘+F2"]	
+	},
+
+	"Text manipulation": {
+		"Transform to Uppercase": ["⌘+K, ⌘+U"],
+		"Transform to Lowercase": ["⌘+K, ⌘+L"],
+		"Clip text upwards / downwards": ["⌘+CTRL+UP", "⌘+CTRL+DOWN"]
 	}
+
 }

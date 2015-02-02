@@ -7,6 +7,11 @@
 				"versions": {
 					"3": "data/apps/sublime_text_3_mac.json"
 				}
+			},
+			"Windows / Linux": {
+				"versions": {
+					"3": "data/apps/sublime_text_3_windows_linux.json"
+				}
 			}
 		}
 	}

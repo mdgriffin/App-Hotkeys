@@ -1,0 +1,76 @@
+{
+
+	"Editing": {
+		"Cut line": ["CTRL+X"],
+		"Insert line after": ["CTRL+↩"],
+		"Insert line before": ["CTRL+SHIFT+↩"],
+		"Move line/selection up": ["CTRL+SHIFT+↑"],
+		"Move line/selection down": ["CTRL+SHIFT+↓"],
+		"Select line - Repeat to select next lines": ["CTRL+L"],
+		"Select word - Repeat select others occurrences": ["CTRL+D"],
+		"Jump to closing parentheses Repeat to jump to opening parentheses": ["CTRL+M"],
+		"Select all contents of the current parentheses": ["CTRL+SHIFT+M"],
+		"Delete Line": ["CTRL+SHIFT+K"],
+		"Delete from cursor to end of line": ["CTRL+KK"],
+		"Delete from cursor to start of line": ["CTRL+K+⌫"],
+		"Indent current line(s)": ["CTRL+]"],
+		"Un-indent current line(s)": ["CTRL+["],
+		"Duplicate line(s)": ["CTRL+SHIFT+D"],
+		"Join line below to the end of the current line": ["CTRL+J"],
+		"Comment/un-comment current line": ["CTRL+/"],	
+		"Block comment current selection": ["CTRL+SHIFT+/"],
+		"Redo, or repeat last keyboard shortcut command": ["CTRL+Y"],
+		"Paste and indent correctly": ["CTRL+SHIFT+V"],
+		"Select next auto-complete suggestion": ["CTRL+SPACE"],
+		"soft undo; jumps to your last change before undoing change when repeated": ["CTRL+U"],
+		"Wrap Selection in html tag": ["ALT+SHIFT+W"]
+	},
+
+	"Navigation/Goto Anywhere": {
+		"Quick-open files by name": ["CTRL+P"],
+		"Goto symbol": ["CTRL+R"],
+		"Goto word in current file": ["CTRL+;"],
+		"Goto line in current file": ["CTRL+G"]
+	},
+
+	"General": {
+		"Command prompt": ["CTRL+SHIFT+P"],
+		"Toggle side bar": ["CTRL+K", "CTRL+B"],
+		"Show scope in status bar": ["CTRL+SHIFT+ALT+P"]
+	},
+
+	"Find/Replace": {
+		"Find": ["CTRL+F"],
+		"Replace": ["CTRL+H"],
+		"Find in files": ["CTRL+SHIFT+F"]
+	},
+
+	"Tabs": {
+		"Open last closed tab": ["CTRL+SHIFT+T"],
+		"Cycle up through tabs": ["CTRL+PGUP"],
+		"Cycle down through tabs": ["CTRL+PGDN"],
+		"Find in files": ["CTRL+⇆"],
+		"Close current tab": ["CTRL+W"],
+		"Switch to tab number $NUM where $NUM <= number of tabs": ["ALT+$NUM"]
+	},
+
+	"Split window": {
+		"Split view into two columns": ["Alt+SHIFT+2"],
+		"Revert view to single column": ["Alt+SHIFT+1"],
+		"Set view to grid (4 groups)": ["Alt+SHIFT+5"],
+		"Jump to group where $NUM is 1-4": ["Ctrl+[$NUM]"],
+		"Move file to specified group where $NUM is 1-4": ["Ctrl+SHIFT+$NUM"]
+	},
+
+	"Bookmarks": {
+		"Toggle bookmark": ["Ctrl+F2"],
+		"Next bookmark": ["F2"],
+		"Previous bookmark": ["SHIFT+F2"],
+		"Clear bookmarks": ["Ctrl+SHIFT+F2"]
+	},
+
+	"Text manipulation": {
+		"Transform to Uppercase": ["Ctrl + KU"],
+		"Transform to Lowercase": ["Ctrl + KL"]
+	}
+}
