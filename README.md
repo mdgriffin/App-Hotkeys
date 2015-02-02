@@ -7,4 +7,3 @@ Built with [Mithril](http://lhorie.github.io/mithril/)
 ### ToDo
 
 - Improve Design
-- Make app version optional
