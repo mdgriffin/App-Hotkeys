@@ -3,7 +3,7 @@
 		"name": "sublime-text",
 		"displayName": "Sublime Text",
 		"systems": {
-			"mac": {
+			"Mac": {
 				"versions": {
 					"3": "data/apps/sublime_text_3_mac.json"
 				}
@@ -20,7 +20,7 @@
 		"displayName": "Gmail",
 		"systems": {
 			"Windows / Linux": "data/apps/gmail_windows_linux.json",
-			"mac": "data/apps/gmail_mac.json"
+			"Mac": "data/apps/gmail_mac.json"
 		}
 	}
 ]
