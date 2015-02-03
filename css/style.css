@@ -137,13 +137,14 @@ fieldset {
 
 .app-bindings li span.bindingName {
 	float: left;
-	margin-left: 5px;
+	margin-right: 5px;
 	padding: 10px;
+	padding-left: 0;
 }
 
 .app-bindings li span.bindingShortcut {
 	background: #95AFBA;
-	margin-left: 5px;
+	margin-right: 5px;
 	float: left;
 	display: inline-block;
 	padding: 10px;
