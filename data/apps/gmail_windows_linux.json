@@ -1,0 +1,89 @@
+{
+
+	"Global": {
+		"Send a message": ["CTRL+ENTER"],
+		"Advance to next window": ["CTRL+PLUS"],
+		"Advance to previous window": ["CTRL+MINUS"],
+		"Add Cc recipients": ["CTRL+SHIFT+C"],
+		"Add Bcc recipients": ["CTRL+SHIFT+B"],
+		"Change 'from' address": ["CTRL+SHIFT+F"],
+		"Focus main window": ["SHIFT+ESC"],
+		"Compose": ["C"],
+		"Compose in a new tab": ["D"],
+		"Focus Search Input": ["/"],
+		"Undo Previous Action": ["Z"],
+		"Move cursor to search chat": ["Q"],
+		"Display more action drordown menu": ["."],
+		"Focus on first button in Gmail Toolbar": [","],
+		"Go to 'all mail'": ["G A"],
+		"Go to starred": ["G S"],
+		"Go to contact list": ["G C"],
+		"Go to Drafts": ["G D"],
+		"Go to label": ["G L"],
+		"Go to sent mail": ["G T"]
+	},
+
+	"Conversation / Conversation List": {
+		"Move conversation from inbox to different label spam or trash": ["V"],
+		"Mark conversation as read": ["SHIFT+I"],
+		"Mark conversation as unread": ["SHIFT+I"],
+		"Move to newer comversation": ["K"],
+		"Move to older conversation": ["J"],
+		"Remove from current view": ["Y"]
+	},
+
+	"Conversation List": {
+		"Go to next inbox section": ["`"],
+		"Go to previous inbox section": ["~"],
+		"Opens a conversation, exand collapse if in conversation view": ["O", "ENTER"],
+		"Archive selected Conversation": ["E"],
+		"Mute conversation": ["M"],
+		"Select/Unselect Conversation": ["X"],
+		"Star a message or conversation": ["S"],
+		"Mark selected as important": ["PLUS"],
+		"Mark selected as unimportant": ["-"],
+		"Report Selected as Spam": ["!"],
+		"Move conversation to bin": ["#"],
+		"Select all mail": ["* A"],
+		"Select all read mail": ["* R"],
+		"Select all unread mail": ["* U"],
+		"Select all starred mail": ["* S"],
+		"Select all unstarred mail": ["* T"]
+	},
+
+	"Conversation": {
+		"Newer message": ["N"],
+		"Previous Message": ["P"],
+		"Reply to a message sender": ["R"],
+		"Reply to a message sender in new window": ["SHIFT+R"],
+		"Reply all": ["A"],
+		"Reply all in new window": ["SHIFT+A"],
+		"Formard": ["F"],
+		"Forward in new window": ["SHIFT+F"],
+		"Return to conversation list": ["U"],
+		"Open Labels menu to label conversation": ["L"],
+		"Archive and previous": ["{"],
+		"Archive and previous": ["}"],
+		"Update current conversation": ["SHIFT+N"],
+		"Archive and move to next message": ["Y O"],
+		"Return to inbox": ["G I"]
+	},
+
+	"Contact List": {
+		"Moves the cursor up": ["K"],
+		"Moves the cursor down": ["L"],
+		"Open selected contact": ["ENTER", "O"],
+		"Return to contact list view": ["U"],
+		"Remove from current group": ["E"],
+		"Select contact": ["X"],
+		"Delete a contact": ["#"],
+		"Open group menu to group contacts": ["L"]
+	},
+
+	"Input": {
+		"Escapes currently focused input": ["ESC"],
+		"Save Draft": ["CTRL+S"],
+		"Send message after compose": ["TAB ENTER"]
+	}
+
+}

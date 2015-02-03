@@ -14,5 +14,13 @@
 				}
 			}
 		}
+	},
+	{
+		"name": "gmail",
+		"displayName": "Gmail",
+		"systems": {
+			"Windows / Linux": "data/apps/gmail_windows_linux.json",
+			"mac": "data/apps/gmail_mac.json"
+		}
 	}
 ]
