@@ -7,4 +7,3 @@ Built with [Mithril](http://lhorie.github.io/mithril/)
 ### ToDo
 
 - Improve Design
-- Figure out what to do with literal + (plus) and what happens with sequence keys
